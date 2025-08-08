@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head lang="en">
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- allows you website to run smoothly accorss diffrent web services --> 
+
+<title>My Perosnal Website</title>
+    
+<link rel="stylesheet" href="Prototype01.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+ rel="stylesheet"> <!-- Importing the style fonts font from Google Fonts --> 
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<div class="bar01">
+
+
+<aside class="bar02">
+
+<nav >
+
+<a href="" class="bar03">Home</a>
+<a href="" class="bar03">My Projects</a>
+<a href=""class="bar03">Socials</a>
+<a href=""class="bar03"> Info</a>
+
+</nav>
+
+</aside>
+
+<div class="Device">
+    
+
+
+</div>
+
+<div class="bak1"> 
+
+<div class="heading01">
+    <a href="" class="Intro01" >Nelly Portfolio </a>
+
+</div>
+
+
+
+<div class="sec01">
+
+<img src="Me02.JPG" alt="Owner Image" class="img01">
+
+</div>
+
+
+
+<div class="intro02">
+
+<p class="txt01" >Hello guys, Its me Nelly</p> 
+
+<p class="txt02" > Who am I ? Im a future Dev Op engenier and just showing my personal work for you guys. 
+    Look around and Hit me up lest start something together</p>
+
+<a href="" class="btn2">About me</a>
+</div>
+
+<div class="Vline01"></div>
+
+<div class="Vline02"></div>
+
+</div>
+
+<hr>
+
+<h2 class=" heading02"> My Personal Insight </h2>
+
+<div class="Intro03">
+
+<p class="txt03">My personal Portfolio here im just trying to showcase some projects in order to to finaly reach my goal to become a Devs Op engenier
+    So Be greatful and watch a Masterpice to be showcased
+</p>
+
+<a href=""  class="btn01">Contact Info</a>
+
+</div>
+
+</div>
+
+</body>
