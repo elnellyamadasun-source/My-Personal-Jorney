@@ -1,0 +1,255 @@
+@font-face {
+font-family: 'Roboto';
+src: url(RobotoCondensed-VariableFont_wght.ttf);
+}
+
+@font-face {
+font-family: '';
+src: url(-.);
+}
+
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body
+{
+background-color: rgb(158, 224, 221);
+}
+
+.bar01
+{
+box-sizing: border-box;
+max-width: 100%;
+max-height: 60px;
+background-color: rgb(255, 255, 255);
+border-radius: 5px;
+position: sticky;
+margin-bottom: 10%;
+}
+
+.bar02
+{
+
+text-align: right;
+}
+
+.bar03
+{
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+color: rgb(0, 0, 0);
+padding: 1rem;
+text-decoration: none;
+display: inline-block;
+margin-top: 5px;
+font-weight: 500;
+
+}
+
+.bar03:hover
+{
+color: rgb(192, 191, 191);
+transition-duration: 1000ms;
+transform: rotate(-10deg);
+}
+
+.Intro01
+{
+font-family: "Bebas Neue", sans-serif;
+color: black;
+text-decoration: none;
+margin-left: 100px;
+
+}
+
+.heading01
+{
+font-size: 30px;
+font-weight: bolder;
+margin-top: -45px;
+}
+
+.txt03
+{
+font-family: "Inter", sans-serif;;
+padding: 1rem;
+margin-bottom: 20px;
+text-align: center;
+display: block;
+
+}
+
+.img01
+{
+width: 400px;
+height: 700px;
+margin-left: 5%;
+margin-top: 5%;
+border-radius: 10px;
+}
+
+.hr01
+{
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+padding: 0;
+}
+
+.Vline01
+{
+border-left: 3px solid rgb(0, 0, 0);
+height: 820px;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+top: 60px;
+}
+
+.Vline02
+{
+border-left: 3px solid rgb(0, 0, 0);
+height: 820px;
+position: absolute;
+left: 52%;
+margin-left: -3px;
+top: 60px;
+}
+
+.intro02
+{
+height: 100px;
+width: 400px;
+margin-left: 58%;
+margin-top: -140px;
+}
+
+.txt01
+{
+padding-bottom: 10px;
+font-family: "Archivo Narrow", sans-serif;
+}
+
+.txt02
+{
+font-family: "Archivo Narrow", sans-serif;
+padding-bottom: 15px;
+}
+
+.btn2
+{
+font-family: "Roboto Condensed", sans-serif;
+font-weight: 700;
+color: black
+
+}
+
+.btn2 {
+display: inline-block;
+color: rgb(0, 0, 0);
+transform: rotate(0deg);
+}
+
+.btn2:hover {
+animation: colorChange 2s forwards;
+}
+
+@Keyframes colorChange {
+0% {
+color: rgb(102, 90, 122); /* start /
+transform: rotate(0deg);
+}
+50% {
+color: rgb(102, 90, 122); / mid color /
+transform: rotate(-5deg);
+}
+100% {
+color: rgb(117, 214, 78); / final color */
+transform: rotate(5deg);
+}
+}
+
+hr
+{
+width: 52%;
+margin-top: 97px;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+}
+
+.Intro03
+{
+margin-top: 15%;
+width: 500px;
+height: 200px;
+border: 1px solid rgba(241, 241, 241, 0.651);
+padding: 25px;
+margin-left: 5%;
+border-radius: 10px;
+box-shadow: 20px 20px 0px rgb(22, 22, 22)
+}
+
+.txt03
+{
+font-family: "Rubik", sans-serif;
+padding: 1rem;
+margin-bottom: 20px;
+text-align: center;
+display: block;
+font-size: medium;
+}
+
+.btn01
+{
+background-color: rgb(31, 113, 207);
+color: black;
+padding: 10px 40px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+margin: 120px;
+font-family: arial;
+}
+
+.heading02
+{
+margin-top: 4%;
+text-align: center;
+font-family: "Bebas Neue", sans-serif;
+font-size: 50px;
+}
+
+.btn01
+{
+background-color: rgb(45, 140, 184);
+color: rgb(0, 0, 0);
+transform: rotate(0deg);
+}
+
+.btn01:hover {
+animation: animationChange 2s forwards;
+}
+
+@Keyframes animationChange {
+0% {
+background-color: rgb(147, 226, 128); /* start /
+color: rgb(0, 0, 0);
+transform: rotate(0deg);
+}
+50% {
+background-color: rgb(147, 226, 128);/ mid color /
+color: rgb(0, 0, 0);
+transform: rotate(-5deg);
+}
+100% {
+background-color: rgb(147, 226, 128); / final color */
+color: rgb(0, 0, 0);
+transform: rotate(5deg);
+}
