@@ -8,6 +8,7 @@ font-family: '';
 src: url(-.);
 }
 
+*
 {
 box-sizing: border-box;
 margin: 0;
@@ -38,7 +39,7 @@ text-align: right;
 
 .bar03
 {
-font-family: 'Roboto', sans-serif;
+font-family: "Roboto", sans-serif;
 text-decoration: none;
 color: rgb(0, 0, 0);
 padding: 1rem;
@@ -159,17 +160,17 @@ transform: rotate(0deg);
 animation: colorChange 2s forwards;
 }
 
-@Keyframes colorChange {
+@keyframes colorChange {
 0% {
-color: rgb(102, 90, 122); /* start /
+color: rgb(102, 90, 122); /* start */
 transform: rotate(0deg);
 }
 50% {
-color: rgb(102, 90, 122); / mid color /
+color: rgb(102, 90, 122); /* mid color */
 transform: rotate(-5deg);
 }
 100% {
-color: rgb(117, 214, 78); / final color */
+color: rgb(117, 214, 78);  /* final color */
 transform: rotate(5deg);
 }
 }
@@ -177,7 +178,7 @@ transform: rotate(5deg);
 hr
 {
 width: 52%;
-margin-top: 97px;
+margin-top: 66px;
 border-color: black;
 border-style: solid;
 border-width: 2px;
@@ -185,14 +186,16 @@ border-width: 2px;
 
 .Intro03
 {
-margin-top: 15%;
-width: 500px;
+display: inline-block;
+margin-top: 250px;
+width: 600px;
 height: 200px;
 border: 1px solid rgba(241, 241, 241, 0.651);
-padding: 25px;
-margin-left: 5%;
+padding: 10px;
+margin-left: 120px;
 border-radius: 10px;
 box-shadow: 20px 20px 0px rgb(22, 22, 22)
+
 }
 
 .txt03
@@ -201,7 +204,7 @@ font-family: "Rubik", sans-serif;
 padding: 1rem;
 margin-bottom: 20px;
 text-align: center;
-display: block;
+display: inline-block;
 font-size: medium;
 }
 
@@ -209,13 +212,13 @@ font-size: medium;
 {
 background-color: rgb(31, 113, 207);
 color: black;
-padding: 10px 40px;
+padding: 10px 30px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
 text-decoration: none;
 margin: 120px;
-font-family: arial;
+font-family: 'Roboto', sans-serif;
 }
 
 .heading02
@@ -227,7 +230,10 @@ font-size: 50px;
 }
 
 .btn01
-{
+{  
+margin-top: 0px;
+margin-left: 220px;
+display: inline-block; 
 background-color: rgb(45, 140, 184);
 color: rgb(0, 0, 0);
 transform: rotate(0deg);
@@ -237,19 +243,20 @@ transform: rotate(0deg);
 animation: animationChange 2s forwards;
 }
 
-@Keyframes animationChange {
+@keyframes animationChange {
 0% {
-background-color: rgb(147, 226, 128); /* start /
+background-color: rgb(147, 226, 128);  /* start color */
 color: rgb(0, 0, 0);
 transform: rotate(0deg);
 }
 50% {
-background-color: rgb(147, 226, 128);/ mid color /
+background-color: rgb(147, 226, 128); /* mid color */
 color: rgb(0, 0, 0);
 transform: rotate(-5deg);
 }
 100% {
-background-color: rgb(147, 226, 128); / final color */
+background-color: rgb(147, 226, 128);  /* final color */
 color: rgb(0, 0, 0);
 transform: rotate(5deg);
+}
 }
